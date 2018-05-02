@@ -1,0 +1,162 @@
+/* Global */
+
+.container {
+    width: 80%;
+    margin: auto;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background: #D7DBDD;
+}
+
+/* Header */
+
+header {
+    background: #000000;
+    margin : 0;
+    padding: 40px 0;
+    color: white;
+    border-bottom: 3px solid #F1C40F
+}
+
+header h1 {
+    margin-top: 0;
+    float: left;
+}
+
+header a[href] {
+    margin-right: 20px;
+    text-decoration: none;
+    color: inherit;
+}
+
+nav {
+    float: right;
+}
+
+nav a:hover {
+    color: #F1C40F;
+}
+
+header li {
+    display: inline;
+    margin-left: 10px;
+    margin-right: 10px;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+header li:hover {
+    color: #F1C40F;
+    text-decoration: overline;
+}
+
+header li.current {
+    font-weight: bold;
+    color: #F1C40F;
+    cursor: pointer;
+    text-decoration: overline;
+}
+
+header #logo {
+    font-weight: bold;
+    color: #F1C40F;
+    cursor: pointer;
+}
+
+/* Main section */
+
+#main-details-index {
+    margin: 0;
+    background: linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4) ), url('../img/weights.jpg') no-repeat 0 -600px;
+    min-height: 50vh;
+    text-align: center;
+    padding-top: 20px;
+    color: white;
+}
+
+#main-details-index h1 {
+    margin: 0;
+    text-align: center;
+    font-size: 70px;
+    font-family: 'Times New Roman', Times, serif
+}
+
+#main-details-index li { 
+    list-style-type: none;
+    font-size: 25px;
+    line-height: 1.4em;
+}
+
+/* Box section */
+
+.box {
+    float: left;
+    width: 30%;
+    padding: 5px;
+    text-align: center;
+    margin: 10px;
+}
+
+#img-container img {
+    width: 65%;
+    margin-top: 10px;
+    margin-bottom: 0;
+    height:auto;
+}
+
+#img-container + h1{
+    margin-top: 0;
+    padding: 0;
+}
+
+.box i {
+    font-size: 175px;
+}
+
+.fa-heartbeat {
+    color: #CB4335;
+    margin-top:10px;
+}
+
+.fa-user {
+    color: #212F3D;
+    margin-bottom: 10px;
+}
+
+/* .fa-user + h1 {
+    margin-top: 5px;
+} */
+
+/* Social networkings */
+
+#social-networks {
+    /* text-align: center; */
+    margin: auto;
+    background: #000;
+    color: #fff;
+    text-align: center;
+}
+
+#social-networks h1{
+    /* text-align: center; */
+    margin: auto;
+}
+
+/* footer */
+
+footer {
+    text-align: center;
+    background: #CB4335;
+    color: #fff;
+    min-height: 5vh;
+}
+
+footer p {
+    margin-bottom: 0;
+    padding-top: 1.75vh;
+    padding-bottom: 1.75vh;
+}
